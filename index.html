@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/dia-de-la-tierra.jpg','imagenes/CAMBIO-CLIMaTICO-OSO1.jpg','imagenes/Banner_Basura_cero_segunda.jpg','imagenes/b6d47b_Tips para ahorrar energia.png','imagenes/humedal_chiste2.jpg')">
+ <div data-role="page" id="Principal" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Día de la Tierra</h1>
+   </div>
+   <br>
+    <div>
+     <center>
+     <img src="imagenes/1cartel_tierra.png" width="45%" height="45%">
+     </center>
+     </div>
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Tierra</h1>
+        <div>
+         <p>
+     Es un planeta del Sistema Solar que gira alrededor de su estrella -el Sol- en la tercera órbita más interna. Es el más denso y el quinto mayor de los ocho planetas del Sistema Solar. También es el mayor de los cuatro terrestres.
+La Tierra se formó hace aproximadamente 4550 millones de años y la vida surgió unos mil millones de años después. Es el hogar de millones de especies, incluyendo los seres humanos y actualmente el único cuerpo astronómico donde se conoce la existencia de vida. La atmósfera y otras condiciones abióticas han sido alteradas significativamente por la biosfera del planeta, favoreciendo la proliferación de organismos aerobios, así como la formación de una capa de ozono que junto con el campo magnético terrestre bloquean la radiación solar dañina, permitiendo así la vida en la Tierra.
+        <br>
+        <center>
+        <img src="imagenes/la-tierra-.jpg" width="45%" height="45%">
+        <h3><a href="http://nationalgeographic.es/medio-ambiente/datos-de-la-tierra-da-cuando-lo-es-cmo-empez-qu-hacer">Click aqui para más información</a></h3>
+        </center>
+        </p>
+      </div>
+    </div>
+    
+    <div data-role="collapsible" data-content-theme="false">
+      <h1>Día de la Tierra</h1>
+          <p>
+          El Día de la Tierra es un día celebrado en muchos países el 22 de abril.
+El estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la superpoblación, la producción de contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra. Es un día para rendir homenaje a nuestro planeta y reconocer a la Tierra como nuestro hogar y nuestra madre, así como lo han expresado distintas culturas a lo largo de la historia, demostrando la interdependencia entre sus ecosistemas y los seres vivos que la habitamos.
+El Día de la Tierra comenzó a celebrarse en los Estados Unidos de América en 1970 y ahora se dirige hacia su 50 aniversario. El Día está organizado por la Earth Day Network  , cuya misión consiste en ampliar y diversificar el movimiento ambiental en todo el mundo y movilizarlo eficazmente para construir un medio ambiente saludable y sostenible, hacer frente al cambio climático, y proteger la Tierra para las generaciones futuras. El tema de este año tiene el objetivo de plantar 7,8 millones de árboles en los próximos cinco años.
+         <br>
+         <center>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','imagenes/dia-de-la-tierra.jpg',1)"><img src="imagenes/DIA DE LA TIERRA.jpg" width="30%" height="30%" id="Image1"></a> </p>
+        </center>
+      </div>
+      
+ <div data-role="collapsible" data-content-theme="false">
+      <h1>Galeria</h1>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:640px;height:380px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+         <br>
+      </div>
+     </div>
+     
+ <div> 
+   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Impacto Ambiental</h2>
+     </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Cambios Positivos</h2>
+      </a>
+     </li>
+   </ul>
+ </div>
+  
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+ <div>
+  <img src="res/android/mdpi.png" width="56" height="56">
+    <h4>Aplicación Cinco</h4>
+ </div>
+  <div>
+    <h4>Día de la Tierra</h4>
+    <h4>María del Carmen Hernández Márquez</h4>
+   </div>
+  </div>
+ </div><!-- div page -->
+
+<!--pagina1-->
+ <div data-role="page" id="Pagina1" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Medio Ambiente</h1>
+  </div>
+     <div data-role="content" align="left">
+     <div>
+      <div> 
+      <h2>Impacto ambiental</h2>
+      <p>El impacto ambiental es el efecto que produce la actividad humana sobre el medio ambiente. El concepto puede extenderse a los efectos de un fenómeno natural catastrófico. Técnicamente, es la alteración de la línea de base ambiental.
+La ecología es la ciencia que se encarga de medir este impacto y tratar de minimizarlo.
+Las acciones de las personas sobre el medio ambiente siempre provocarán efectos colaterales sobre éste. La preocupación por los impactos ambientales abarca varios tipos de acciones, como la contaminación de los mares con petróleo, los desechos de la energía radioactiva o desechos radioactivos/nucleares, la contaminación auditiva, la emisión de gases nocivos, o la pérdida de superficie de hábitats naturales, entre otros.</p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/CAMBIO-CLIMaTICO-OSO1.jpg',1)"><img src="imagenes/aguaconta.jpg" width="45%" height="45%" id="Image2"></a>
+<h2>Cambio Climatico</h2>
+        <p>
+•	1. Casquetes polares: Las altas temperaturas ocasionadas por el calentamiento global están derritiendo los casquetes polares y aumentando el nivel del mar, según los científicos. 
+       <br>
+•	2. Sequías: En las próximas décadas, el cambio climático desatará megasequías que durarán 10 años o más, según un nuevo informe de los académicos de la Universidad de Cornell, de la Universidad de Arizona y del Servicio Geológico de Estados Unidos. Ya estamos viendo indicios de esto en muchas partes áridas del mundo e incluso en California, en el que se ha racionado el agua en medio de una sequía sin precedentes. 
+       <br>
+•	3. Incendios forestales: exactamente no existe ninguna regulaciónreulación directa entre el cambio climático y los incendios forestales. Sin embargo, muchos científicos creen que el aumento de los incendios forestales al oeste de Estados Unidos es en parte el resultado de bosques muy secos que han sido abrasados por losel aumentos de las temperaturas. 
+       <br>
+•	4. Deforestación: El cambio climático no ha sido amable con los bosques del mundo. Las especies invasoras como el escarabajo de la corteza, el cual prospera en temperaturas más cálidas, han atacado a los árboles a través del oeste de América del Norte, desde México hasta el Yukón. 
+       <br>
+•	5. Especies en peligro de extinción:  los osos polares pueden ser un vivo ejemplo del efecto que el cambio climático tiene en los animales. Pero los científicos dicen que el cambio climático está causando estragos en muchas otras especies (entre ellas aves y reptiles) que son sensibles a las fluctuaciones de las temperaturas. 
+       <br>
+•	6. La migración de los animales: no es tu imaginación, cada año y cada vez más algunos animales (en su mayoría aves) están migrando de forma anticipada debido al calentamiento global. Investigadores de la Universidad de East Anglia descubrieron que las agujas colinegras islandesas han adelantado su migración dos semanas durante las últimas dos décadas. Los investigadores también han determinado que conforme aumentan las temperaturas, muchas especies están migrando a zonas más elevadas. 
+       <br>
+•	7. El clima extremo: debido al cambio climático, el planeta podría enfrentar hasta 20 huracanes y tormentas tropicales más cada año a finales de siglo, según un estudio de 2013 publicado en las Actas de la Academia Nacional de Ciencias. 
+       </p>
+       <p>
+       <h2>Contaminacion del Agua</h2>
+       Es una modificación de esta, generalmente provocada por el ser humano, que la vuelve impropia o peligrosa para el consumo humano, la industria, la agricultura, la pesca y las actividades recreativas, así como para los animales.
+Aunque la contaminación de las aguas puede provenir de fuentes naturales (como la ceniza de un volcán), la mayor parte de la contaminación actual proviene de actividades humanas. El desarrollo y la industrialización suponen un mayor uso de agua, una gran generación de residuos, muchos de los cuales van a parar al agua y el uso de medios de transporte fluvial y marítimo que en muchas ocasiones, son causa de contaminación de las aguas. Las aguas superficiales son en general más vulnerables a la contaminación de origen antropogénico que las aguas subterráneas, por su exposición directa a la actividad humana. Por otra parte una fuente superficial puede restaurarse más rápidamente que una fuente subterránea a través de ciclos de escorrentía estacionales. Los efectos sobre la calidad serán distintos para lagos y embalses que para ríos, y diferentes para acuíferos de roca o arena y grava.
+       </p>
+       <h2> 5 lugares más contaminados del mundo</h2>
+•	Abgogbloshie, Ghana
+Este barrio en la ciudad de Accra es el mayor vertedero de chatarra electrónica procedente de Europa y Norteamérica y en el cual habitan unas 40.000 personas, la mayoría procedente de zonas rurales. Este lugar es el más contaminado del continente africano, principalmente por metales tales como plomo, berilio, cadmio o mercurio y es que en este país no existe ninguna normativa que regule la liberación de sustancias tóxicas.
+       <br>
+       <img src="imagenes/ghana.jpg" width="30%" height="30%">
+       <br>
+•	Chernóbil, Ucrania
+Esta ciudad está situada al norte de Ucrania, en el Óblast de Kiev y muy cerca de la frontera con Bielorusia. Una vez esta localidad alojó a más de 14.000 habitantes y hoy es un pueblo fantasma en el que las condiciones de vida son insostenibles. La ciudad fue abandonada en 1986 debido al accidente ocurrido en la central nuclear —cabe mencionar que ese fue considerado como el más grave en la Escala Internacional de Accidentes Nucleares (accidente mayor, nivel 7)— constituyendo uno de los mayores desastres medioambientales de la historia. Los principales contaminantes son el polvo radiactivo de uranio, plutonio, cesio 137, estroncio-90 y otros metales.
+      <br>
+       <img src="imagenes/ucrania.jpg" width="30%" height="30%">
+      <br>
+•	Río Citarium, Indonesia
+El caudal del río Citarum, en Indonesia al oeste de la isla de Java, se ha convertido en uno de los lugares más contaminados del mundo. Durante miles de años, este río fue la fuente de alimentación y transporte para las diferentes civilizaciones desde el siglo IV antes de Cristo. Sin embargo a la sociedad moderna le bastaron 40 años para destruirlo y convertirlo en este torrente de infecciones, desechos y flujos toxicos.
+       <br>
+        <img src="imagenes/indonesia.jpg" width="30%" height="30%">
+       <br>
+•	Dzershinsk, Rusia
+La ciudad rusa de Dzershinsk es actualmente un gran centro de la industria química rusa. Hace años era uno de los núcleos de producción de armas químicas más importantes de la extinta URSS. Aunque parece que las cosas están cambiando últimamente, se comentó en su día que la esperanza de vida en Dzerzhinsk de los hombres era de 47 años y para las mujeres de 42.
+Se estima que entre 1930 y 1998 fueron depositados de forma inapropiada 300.000 toneladas de residuos en los vertederos de la localidad (y sus alrededores). Casi 200 sustancias químicas han sido identificadas desde entonces en las aguas subterráneas de la zona. Una de ellas, el fenol, que causa cáncer de ojos, pulmones y riñones.
+      <br>
+       <img src="imagenes/rusia.jpg" width="30%" height="30%">
+      <br>
+•	Hazaribagh, Bangladesh
+Hazaribagh es un suburbio de Dhaka, la capital de Bangladesh, donde miles de personas trabajan en condiciones infrahumanas para transformar 14 millones de pieles en el cuero con el que cada año se confeccionan las chaquetas, bolsos y artículos de piel baratos que llenan nuestros armarios. Además la mayoría de las curtidurías en las que se trabaja expulsan al día 22.000 litros cúbicos de sustancias toxicas en el río Buriganga, entre ellas el cancerígenocromo hexavalente.
+      <br>
+      <img src="imagenes/bangladesh.jpg" width="30%" height="30%">
+    </div>
+   </div>
+  </div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+ <div>
+  <img src="res/android/mdpi.png" width="56" height="56">
+    <h4>Aplicación Cinco</h4>
+ </div>
+  <div>
+    <h4>Día de la Tierra</h4>
+    <h4>María del Carmen Hernández Márquez</h4>
+   </div>
+   </div>
+ </div>
+  <!--PAGINA2-->      
+  <div data-role="page" id="Pagina2" data-theme="b">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Cambios Positivos</h1>
+   </div>
+   <div data-role="content" align="center">
+   <div data-role="collapsible" data-content-theme="false">
+      <h1>Reflexión</h1>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/humedal_chiste2.jpg',1)"><img src="imagenes/comunidad.jpg" width="55%" height="55%" id="Image6"></a>
+      <br>
+       Nuestro planeta es nuestro hogar, el único que tenemos y justamente eso estamos haciendo, ensuciándolo, contaminándolo y destruyéndolo; y lo peor de todo es que no solo es nuestro también es de todos los demás seres vivos que en él existen, quienes no pueden contaminarlo como nosotros, pero si sufren las terribles consecuencias de nuestros actos.
+ El cambio climático ha ido empeorando, las sequías, los desastres naturales, cada vez más extinciones en especies animales, todo esto es parte de nuestro día a día y no podemos ser observadores de la destrucción de nuestro hogar, es momento de actuar.
+     </p>
+         <br>
+         <img src="imagenes/84191.jpg" width="30%" height="30%">
+         <img src="imagenes/contaminado.jpg" width="30%" height="30%">
+         <img src="imagenes/curso de composta (10).JPG" width="30%" height="30%">
+         <img src="imagenes/arbolitos1.jpg" width="30%" height="30%">
+      </div>
+    <div>
+     <h2>Con estos pasos ayudamos al planeta</h2>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/Banner_Basura_cero_segunda.jpg',1)"><img src="imagenes/reciclar.jpg" width="55%" height="55%" id="Image3"></a> 
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/b6d47b_Tips para ahorrar energia.png',1)"><img src="imagenes/944194_378990072210515_252979440_n.jpg" width="45%" height="45%" id="Image4"></a> </div>
+    </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="56" height="56">
+     <h4>Aplicación Cinco</h4>
+    </div>
+  <div>
+    <h4>Día de la Tierra</h4>
+    <h4>María del Carmen Hernández Márquez</h4>
+   </div>
+ </div>
+</body>
+</html>
+
+    
+   
+   
+     
